@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/multitab-particle-bridge/static/css/main.e2ae7abf.css",
+    "main.js": "/multitab-particle-bridge/static/js/main.d0e3afe5.js",
+    "index.html": "/multitab-particle-bridge/index.html",
+    "main.e2ae7abf.css.map": "/multitab-particle-bridge/static/css/main.e2ae7abf.css.map",
+    "main.d0e3afe5.js.map": "/multitab-particle-bridge/static/js/main.d0e3afe5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2ae7abf.css",
+    "static/js/main.d0e3afe5.js"
+  ]
+}
