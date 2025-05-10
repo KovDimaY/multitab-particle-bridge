@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# Multitab Particle Bridge
+
+This project is a real-time, multi-tab synchronized 3D particle visualization built with React, TypeScript, and React Three Fiber. Inspired by an Instagram video I saw, the goal was to recreate the illusion that browser tabs exist in the same shared 3D space — where spheres represent each tab, and bridges of glowing particles flow between them.
+
+Here you can see the video that inspired this project: [https://youtu.be/4LwHH3r2qNY](https://youtu.be/4LwHH3r2qNY)
+
+👉 Live Demo of my implementation on GitHub Pages: [https://kovdimay.github.io/multitab-particle-bridge/](https://kovdimay.github.io/multitab-particle-bridge/)
+
+## 🚀 Tech Stack
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+- React + TypeScript
+- React Three Fiber (Three.js in React)
+- GLSL Shaders (Custom point rendering)
+- `localStorage`, `BroadcastChannel`
+- GitHub Pages for deployment
 
-In the project directory, you can run:
+## 📸 Screenshots
 
-### `npm start`
+Original video:
+![image](https://github.com/user-attachments/assets/c160d3ba-74c2-4c62-b2e9-56f7268c1e26)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+My implementation:
+![image](https://github.com/user-attachments/assets/f61ffc59-fee2-4a4c-9bc3-533b5cbe2c87)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠 Run Locally
 
-### `npm test`
+#### Clone the repo:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/KovDimaY/multitab-particle-bridge.git
+cd multitab-particle-bridge
+```
 
-### `npm run build`
+#### Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Start development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm start
+```
 
-### `npm run eject`
+## 📦 Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To deploy to GitHub Pages:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run deploy
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 💡 Inspiration
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Huge thanks to **Bjørn Gunnar Staal** ([bgstaal](https://github.com/bgstaal)) for the original concept. This was my attempt to recreate it without access to the source code of the interacting spheres.
 
-## Learn More
+## 👋 Final Note
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+If this project sparks your curiosity — feel free to experiment, contribute, or reach out!
